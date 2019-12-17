@@ -1,0 +1,10 @@
+javac --release 8 -d . javafile
+javac 컴파일러
+--release 해당 버전으로 릴리즈
+-d 뒤에 오는 곳에 패키지 생성
+
+ex)
+pwd C:\User\gf 이고 java.java(package com;)를 컴파일 한다 할때
+javac --release 8 -d . 하면 C:\User\gf\com 에 java.class생성
+javac --release 8 -d .. 하면 C:\User\com 에 java.class생성
+javac --release 8 -d ..\asdf 하면 C:\User\asdf\com 에 java.class생성
